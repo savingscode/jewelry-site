@@ -76,10 +76,13 @@ export default function JobApplicationPage() {
         }
       });
 
-      const response = await fetch(`${process.env.api_url}/send-dets`, {
-        method: "POST",
-        body: formDataToSend,
-      });
+      const response = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}/send-dets`,
+        {
+          method: "POST",
+          body: formDataToSend,
+        }
+      );
 
       await new Promise((resolve) => setTimeout(resolve, 1500));
 
