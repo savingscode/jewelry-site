@@ -1,0 +1,29 @@
+<svg width="100%" height="100%" viewBox="0 0 1440 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffbe6"/>
+      <stop offset="100%" stop-color="rgb(217,119,6)" />
+    </linearGradient>
+
+    <radialGradient id="lightCenter" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.5)" />
+      <stop offset="100%" stop-color="rgba(217,119,6,0)" />
+    </radialGradient>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="100%" height="100%" fill="url(#goldGradient)" />
+
+  <!-- Center glow -->
+  <rect width="100%" height="100%" fill="url(#lightCenter)" />
+
+  <!-- Decorative sparkle elements -->
+  <circle cx="200" cy="150" r="2" fill="#fff" opacity="0.4" />
+  <circle cx="1200" cy="300" r="3" fill="#fff" opacity="0.3" />
+  <circle cx="800" cy="600" r="1.5" fill="#fff" opacity="0.5" />
+  <circle cx="400" cy="700" r="2.5" fill="#fff" opacity="0.4" />
+  <circle cx="1000" cy="100" r="2" fill="#fff" opacity="0.4" />
+
+  <!-- Optional decorative icons (e.g., gemstone outlines) could be added here -->
+
+</svg>
