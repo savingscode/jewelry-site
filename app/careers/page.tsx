@@ -221,7 +221,7 @@ export default function CareersPage() {
 
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=1000&width=800"
+                src="/application_process.webp?height=1000&width=800"
                 alt="Team working together"
                 fill
                 className="object-cover"
@@ -244,9 +244,7 @@ export default function CareersPage() {
             variant="outline"
             className="text-black border-white hover:bg-white/10"
           >
-          <Link href={"/careers/apply/resume"}>
-            Submit Your Resume
-</Link>
+            <Link href={"/careers/apply/resume"}>Submit Your Resume</Link>
           </Button>
         </div>
       </section>

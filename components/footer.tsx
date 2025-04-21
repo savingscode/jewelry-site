@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <h3 className="text-xl font-bold">
-              Elegance<span className="text-amber-500">Jewelry</span>
+              Elegant<span className="text-amber-500">Jewelries</span>
             </h3>
             <p className="text-neutral-400">
               Crafting timeless elegance since 1985. Our commitment to quality and craftsmanship defines every piece we
@@ -78,8 +78,8 @@ export default function Footer() {
                 </a>
               </p>
               <p>
-                <a href="mailto:info@elegancejewelry.com" className="hover:text-white transition-colors">
-                  info@elegancejewelry.com
+                <a href="mailto:info@elegantjewelries.shop" className="hover:text-white transition-colors">
+                  info@elegantjewelries.shop
                 </a>
               </p>
             </address>

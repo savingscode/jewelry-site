@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link href="/" className="font-bold text-2xl">
-            Elegance<span className="text-amber-600">Jewelry</span>
+            Elegant<span className="text-amber-600">Jewelries</span>
           </Link>
 
           {/* Desktop Navigation */}

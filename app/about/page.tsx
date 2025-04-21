@@ -53,7 +53,7 @@ export default function AboutPage() {
             </div>
             <div className="relative h-[500px] rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=1000&width=800"
+                src="/logo.webp?height=1000&width=800"
                 alt="Our founder in the workshop"
                 fill
                 className="object-cover"
@@ -113,17 +113,17 @@ export default function AboutPage() {
               {
                 name: "Elizabeth Harmon",
                 role: "Founder & Creative Director",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "/lizz.jpeg?height=400&width=400",
               },
               {
                 name: "James Chen",
                 role: "Master Jeweler",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "/james.jpeg?height=400&width=400",
               },
               {
                 name: "Sofia Rodriguez",
                 role: "Design Lead",
-                image: "/placeholder.svg?height=400&width=400",
+                image: "/sofia.jpeg?height=400&width=400",
               },
               {
                 name: "Michael Okafor",

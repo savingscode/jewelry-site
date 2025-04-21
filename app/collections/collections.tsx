@@ -7,24 +7,84 @@ export default function CollectionsPage() {
   // Sample product data
   const collections = {
     signature: [
-      { id: 1, name: "Diamond Eternity Ring", price: 2499, image: "/placeholder.svg?height=600&width=600" },
-      { id: 2, name: "Sapphire Pendant", price: 1899, image: "/placeholder.svg?height=600&width=600" },
-      { id: 3, name: "Gold Bangle", price: 1299, image: "/placeholder.svg?height=600&width=600" },
-      { id: 4, name: "Pearl Drop Earrings", price: 899, image: "/placeholder.svg?height=600&width=600" },
+      {
+        id: 1,
+        name: "Diamond Eternity Ring",
+        price: 2499,
+        image: "/Diamond_Eternity_Ring.webp?height=600&width=600",
+      },
+      {
+        id: 2,
+        name: "Sapphire Pendant",
+        price: 1899,
+        image: "/placeholder.svg?height=600&width=600",
+      },
+      {
+        id: 3,
+        name: "Gold Bangle",
+        price: 1299,
+        image: "/placeholder.svg?height=600&width=600",
+      },
+      {
+        id: 4,
+        name: "Pearl Drop Earrings",
+        price: 899,
+        image: "/placeholder.svg?height=600&width=600",
+      },
     ],
     seasonal: [
-      { id: 5, name: "Summer Opal Necklace", price: 1599, image: "/placeholder.svg?height=600&width=600" },
-      { id: 6, name: "Floral Diamond Brooch", price: 2199, image: "/placeholder.svg?height=600&width=600" },
-      { id: 7, name: "Emerald Tennis Bracelet", price: 3499, image: "/placeholder.svg?height=600&width=600" },
-      { id: 8, name: "Ruby Stud Earrings", price: 1099, image: "/placeholder.svg?height=600&width=600" },
+      {
+        id: 5,
+        name: "Summer Opal Necklace",
+        price: 1599,
+        image: "/placeholder.svg?height=600&width=600",
+      },
+      {
+        id: 6,
+        name: "Floral Diamond Brooch",
+        price: 2199,
+        image: "/placeholder.svg?height=600&width=600",
+      },
+      {
+        id: 7,
+        name: "Emerald Tennis Bracelet",
+        price: 3499,
+        image: "/placeholder.svg?height=600&width=600",
+      },
+      {
+        id: 8,
+        name: "Ruby Stud Earrings",
+        price: 1099,
+        image: "/placeholder.svg?height=600&width=600",
+      },
     ],
     bridal: [
-      { id: 9, name: "Diamond Solitaire Ring", price: 4999, image: "/placeholder.svg?height=600&width=600" },
-      { id: 10, name: "Pearl Wedding Set", price: 2899, image: "/placeholder.svg?height=600&width=600" },
-      { id: 11, name: "Sapphire Engagement Ring", price: 3799, image: "/placeholder.svg?height=600&width=600" },
-      { id: 12, name: "Diamond Wedding Band", price: 1799, image: "/placeholder.svg?height=600&width=600" },
+      {
+        id: 9,
+        name: "Diamond Solitaire Ring",
+        price: 4999,
+        image: "/placeholder.svg?height=600&width=600",
+      },
+      {
+        id: 10,
+        name: "Pearl Wedding Set",
+        price: 2899,
+        image: "/placeholder.svg?height=600&width=600",
+      },
+      {
+        id: 11,
+        name: "Sapphire Engagement Ring",
+        price: 3799,
+        image: "/placeholder.svg?height=600&width=600",
+      },
+      {
+        id: 12,
+        name: "Diamond Wedding Band",
+        price: 1799,
+        image: "/placeholder.svg?height=600&width=600",
+      },
     ],
-  }
+  };
 
   return (
     <div className="flex flex-col">
