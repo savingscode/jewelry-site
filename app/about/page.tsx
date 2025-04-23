@@ -113,7 +113,7 @@ export default function AboutPage() {
               {
                 name: "Elizabeth Harmon",
                 role: "Founder & Creative Director",
-                image: "/lizz.jpeg?height=400&width=400",
+                image: "/lizz.jpg?height=400&width=400",
               },
               {
                 name: "James Chen",
@@ -123,7 +123,7 @@ export default function AboutPage() {
               {
                 name: "Sofia Rodriguez",
                 role: "Design Lead",
-                image: "/sofia.jpeg?height=400&width=400",
+                image: "/sofia.jpg?height=400&width=400",
               },
               {
                 name: "Michael Okafor",

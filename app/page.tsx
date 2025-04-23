@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button"
 import FeaturedProducts from "@/components/featured-products"
 import TestimonialSlider from "@/components/testimonial-slider"
 
+
 export default function Home() {
   return (
     <div className="flex flex-col">
@@ -28,12 +29,16 @@ export default function Home() {
             Discover our handcrafted jewelry collections that blend traditional artistry with contemporary design.
           </p>
           <div className="flex flex-wrap gap-4">
+           <Link href="/careers">
             <Button size="lg" className="bg-amber-600 hover:bg-amber-700">
-              Explore Collections
+              Join Us
             </Button>
+            </Link>
+            <Link href="about">
             <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10 text-dark">
               Our Story
             </Button>
+            </Link>
           </div>
         </div>
       </section>

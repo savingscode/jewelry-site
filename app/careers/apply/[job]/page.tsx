@@ -84,10 +84,11 @@ export default function JobApplicationPage() {
         }
       );
 
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-
       // Success - redirect to thank you page
-      router.push("/careers/thank-you");
+      if (response.ok) {
+              router.push("/careers/thank-you");
+      }
+            setIsSubmitting(false);
     } catch (error) {
       console.error("Error submitting application:", error);
       setIsSubmitting(false);
