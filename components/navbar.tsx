@@ -48,7 +48,9 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <div className="hidden md:block">
+            <Link href="/book-appointment">
             <Button className="bg-amber-600 hover:bg-amber-700">Book Appointment</Button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -74,7 +76,9 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
+            <Link href="/book-appointment" onClick={() => setIsMenuOpen(false)}>
             <Button className="bg-amber-600 hover:bg-amber-700 w-full">Book Appointment</Button>
+            </Link>
           </nav>
         </div>
       )}

@@ -12,22 +12,31 @@ export default function Footer() {
               Elegant<span className="text-amber-500">Jewelries</span>
             </h3>
             <p className="text-neutral-400">
-              Crafting timeless elegance since 1985. Our commitment to quality and craftsmanship defines every piece we
-              create.
+              Crafting timeless elegance since 1985. Our commitment to quality
+              and craftsmanship defines every piece we create.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
+              {/* <a
+                href="#"
+                className="text-neutral-400 hover:text-white transition-colors"
+              >
                 <Facebook className="w-5 h-5" />
                 <span className="sr-only">Facebook</span>
-              </a>
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
+              </a> */}
+              <a
+                href="#"
+                className="text-neutral-400 hover:text-white transition-colors"
+              >
                 <Instagram className="w-5 h-5" />
                 <span className="sr-only">Instagram</span>
               </a>
-              <a href="#" className="text-neutral-400 hover:text-white transition-colors">
+              {/* <a
+                href="#"
+                className="text-neutral-400 hover:text-white transition-colors"
+              >
                 <Twitter className="w-5 h-5" />
                 <span className="sr-only">Twitter</span>
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -36,49 +45,68 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/" className="text-neutral-400 hover:text-white transition-colors">
+                <Link
+                  href="/"
+                  className="text-neutral-400 hover:text-white transition-colors"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="/collections" className="text-neutral-400 hover:text-white transition-colors">
+                {/* <Link
+                  href="/collections"
+                  className="text-neutral-400 hover:text-white transition-colors"
+                >
                   Collections
-                </Link>
+                </Link> */}
               </li>
               <li>
-                <Link href="/about" className="text-neutral-400 hover:text-white transition-colors">
+                <Link
+                  href="/about"
+                  className="text-neutral-400 hover:text-white transition-colors"
+                >
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/careers" className="text-neutral-400 hover:text-white transition-colors">
+                <Link
+                  href="/careers"
+                  className="text-neutral-400 hover:text-white transition-colors"
+                >
                   Careers
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="text-neutral-400 hover:text-white transition-colors">
+                <Link
+                  href="/contact"
+                  className="text-neutral-400 hover:text-white transition-colors"
+                >
                   Contact
                 </Link>
               </li>
             </ul>
           </div>
 
- 
-
           {/* Contact */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact Us</h4>
             <address className="not-italic text-neutral-400 space-y-2">
-              <p>123 Elegance Avenue</p>
-              <p>New York, NY 10001</p>
+              <p>226 1st Ave</p>
+              <p>New York, NY 10009</p>
               <p>United States</p>
               <p className="pt-2">
-                <a href="tel:+12125551234" className="hover:text-white transition-colors">
-                  +1 (212) 555-1234
+                <a
+                  href="tel:+12125551234"
+                  className="hover:text-white transition-colors"
+                >
+                  +1 (539) 432-3084
                 </a>
               </p>
               <p>
-                <a href="mailto:info@elegantjewelries.shop" className="hover:text-white transition-colors">
+                <a
+                  href="mailto:info@elegantjewelries.shop"
+                  className="hover:text-white transition-colors"
+                >
                   info@elegantjewelries.shop
                 </a>
               </p>
@@ -87,10 +115,13 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-neutral-800 mt-12 pt-8 text-center text-neutral-500 text-sm">
-          <p>&copy; {new Date().getFullYear()} Elegance Jewelry. All rights reserved.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Elegance Jewelry. All rights
+            reserved.
+          </p>
         </div>
       </div>
     </footer>
-  )
+  );
 }
 
