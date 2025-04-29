@@ -16,7 +16,7 @@ export default function CareersPage() {
     {
       id: 1,
       title: "Executive Secretary",
-      location: "New York, NY",
+      location: "Remote",
       type: "Full-time",
       wage: "$100,000 - $130,000/year",
       description:
