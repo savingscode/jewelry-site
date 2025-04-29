@@ -1,8 +1,16 @@
-import Link from "next/link"
-import { CheckCircle } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { useEffect } from "react";
+import Link from "next/link";
+import { CheckCircle } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 export default function ThankYouPage() {
+  useEffect(() => {
+    if (typeof window.fbq !== "undefined") {
+      window.fbq("track", "CompleteRegistration");
+      console.log("Facebook Pixel event 'CompleteRegistration' fired.");
+    }
+  }, []);
+
   return (
     <div className="py-20 bg-neutral-50 min-h-screen flex items-center">
       <div className="container mx-auto px-4 text-center">
@@ -43,4 +51,3 @@ export default function ThankYouPage() {
     </div>
   );
 }
-
