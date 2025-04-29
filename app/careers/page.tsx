@@ -18,7 +18,7 @@ export default function CareersPage() {
       title: "Executive Secretary",
       location: "New York, NY",
       type: "Full-time",
-      wage: "40 - 60/hr",
+      wage: "$100,000 - $130,000/year",
       description:
         "Support our executive team with administrative tasks, scheduling, and correspondence.",
       slug: "executive-secretary",
@@ -28,7 +28,7 @@ export default function CareersPage() {
       title: "Virtual Assistant",
       location: "Remote",
       type: "Full-time",
-      wage: "20 - 30/hr",
+      wage: "$70,000 - $100,000/year",
       description:
         "Provide remote administrative support to our management team across various departments.",
       slug: "virtual-assistant",
@@ -79,7 +79,7 @@ export default function CareersPage() {
                       <span>{job.type}</span>
                     </div>
                     <div className="flex items-center gap-2 mt-1">
-                      <DollarSign className="w-4 h-4 text-neutral-500" />
+                      {/* <DollarSign className="w-4 h-4 text-neutral-500" /> */}
 
                       <span>{job.wage}</span>
                     </div>
